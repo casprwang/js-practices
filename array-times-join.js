@@ -1,12 +1,12 @@
 var cat = {
   meow: function(times) {
-    console.log(Array(times).join("meow"));
+    console.log("meow".repeat(times));
   },
   purr: function(times) {
-    console.log(Array(times).join("purr"));
+    console.log(Array(times+1).join("purr"));
   },
   snore: function(times) {
-    console.log(Array(times).join("snore"));
+    console.log(Array(times+1).join("snore"));
   }
 };
 
